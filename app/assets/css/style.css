@@ -7,6 +7,11 @@
 #555555 	(85,85,85)
 http://www.color-hex.com/color-palette/1409
 
+
+/*
+----------------------------------
+HEADER
+----------------------------------
 */
 .header	{
 	background-color: #333333;
@@ -86,5 +91,5 @@ TYPOGRAPHY
 	text-align: right;
 	font-variant: small-caps;
 	letter-spacing: 2px;
-	
+
 }
