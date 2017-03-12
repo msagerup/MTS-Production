@@ -68,9 +68,7 @@ TYPOGRAPHY
 }
 .name_subtext {
 	padding-top: 20px;
-	color: white;
-}
-.name_tagline {
+	color: white;content_trans
 	font-size: 1.5rem;
 	padding-left: 20px;
 	font-variant: small-caps;
@@ -101,6 +99,16 @@ PORTFOLIO CONTENT
 
 }
 
+
+._portfolio-content {
+  padding-left: 35px;
+}
+
+.portfolio-content-header {
+  font-size: 2.5rem;
+  font-variant: small-caps;
+  color: #C3FC7B;
+}
 
 
 /*
@@ -133,16 +141,7 @@ li.odd {
 }
 
 /*
--------------------------------------------
-PORTFOLIO CONTENT
--------------------------------------------
+---------------------------------------------
+CONTACT FORM
+---------------------------------------------
 */
-._portfolio-content {
-  padding-left: 35px;
-}
-
-.portfolio-content-header {
-  font-size: 2.5rem;
-  font-variant: small-caps;
-  color: #C3FC7B;
-}
