@@ -371,8 +371,10 @@ hr {
   cursor: pointer;
 }
 .container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
 
-  padding-right: 15px;
 }
 @media (min-width: 768px) {
   .container {
@@ -384,9 +386,9 @@ hr {
     width: 970px;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1300px;
+    width: 1200px;
   }
 }
 .container-fluid {

@@ -16,7 +16,33 @@ HEADER
 .header	{
 	background-color: #333333;
 	height: 40px;
-  position: relative;
+
+}
+
+/*
+----------------------------------------------------
+POST-IT's
+----------------------------------------------------
+*/
+
+.postit-cv-holder {
+  position: absolute;
+  right: -40%;
+  top: 2%;
+  transform: rotate(2deg);
+}
+
+/*
+SHADOW
+*/
+
+
+
+._postit-cv {
+  width: 380px;
+  height: 320px;
+  background-color: white;
+
 }
 
 .nav-holder {
@@ -38,11 +64,37 @@ HEADER
 BODY
 ----------------------------------
 */
+.container {
+  background: white;
+  padding: 35px 30px 45px 30px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background: url(../img/paper2.jpg) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+
+}
+
+
+
+
+.lacing-holder {
+  position: relative;
+  top: 15%;
+  right:2%;
+  transform: translateY(-120%);
+}
 
 body {
 	font-family: 'Lato', sans-serif;
-	/*background:url(../img/lines.png) no-repeat 200px 430px;*/
-	background-color: #232323;
+  background: url(../img/poster3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 ._header {
@@ -62,6 +114,10 @@ body {
   background-size: cover;
 }
 
+
+
+
+
 /*
 --------------------------------------
 STAPLE EFFECT
@@ -75,7 +131,7 @@ STAPLE EFFECT
   background: #fff;
   display: inline-block;
   height: 4px;
-  margin: 20px 20px 0;
+  margin: 5px 20px 0;
   position: relative;
   width: 40px;
   /*z-index: 1000;*/
