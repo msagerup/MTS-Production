@@ -17,7 +17,89 @@ HEADER
 	background-color: #333333;
 	height: 40px;
 
+
 }
+
+.box11-holder {
+
+  float: right;
+  margin-right: 5%;
+  margin-top: 7%;
+  transform: rotate(-4deg);
+}
+
+
+.box11{
+  width:380px;
+  height:320px;
+  background-color:white;
+  margin:25px 15px;
+  border-radius:5px;
+
+
+}
+
+
+.box22{
+  background-color: #EDE89A;
+}
+
+
+.shadow22 {
+  position:relative;
+}
+.shadow22{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+/****************************************************************
+*styling shadows
+****************************************************************/
+
+
+.shadow22:before{
+  position:absolute;
+  content:"";
+  width:80%;
+  top:140px;bottom:22px;left:20px;
+  background-color:#9F8641;
+  z-index:-1;
+  -webkit-box-shadow:0 23px 17px 0 #9F8641;
+  -moz-box-shadow:0 23px 17px 0 #9F8641;
+  box-shadow: 0 23px 17px 0 #9F8641;
+  -webkit-transform:rotate(-4deg);
+  -moz-transform:rotate(-4deg);
+  transform:rotate(-4deg);
+}
+
+
+
+.lacing-holder-top {
+  float: right;
+  padding-top: 2%;
+  transform: rotate(+10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 ----------------------------------------------------
@@ -28,10 +110,14 @@ POST-IT's
 .postit-cv-holder {
   position: absolute;
   right: -40%;
-  top: 2%;
+  top: 20%;
   transform: rotate(2deg);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
 }
-
 /*
 SHADOW
 */
@@ -221,14 +307,33 @@ TYPOGRAPHY
 }
 .__name_tagline_training_blue {
 	color: #58FFFF
+}
 
+/*
+---------------------------------------------
+POST IT TEXTS
+---------------------------------------------
+*/
+.post-it-text-yellow {
+
+  float: left;
+}
+
+.post-it-content-holder {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+._post-it-header {
+  font-size: 4.5rem;
+}
 
 /*
 ---------------------------------------
 PORTFOLIO CONTENT
 ---------------------------------------
 */
-}
+
 ._portfolio_header {
 	font-size: 2.5rem;
 	color: #848482;
