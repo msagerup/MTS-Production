@@ -85,22 +85,6 @@ HEADER
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 ----------------------------------------------------
 POST-IT's
@@ -124,11 +108,11 @@ SHADOW
 
 
 
-._postit-cv {
+/*._postit-cv {
   width: 380px;
   height: 320px;
   background-color: white;
-
+*/
 }
 
 .nav-holder {
@@ -152,11 +136,11 @@ BODY
 */
 .container {
   background: white;
-  padding: 35px 30px 45px 30px;
+/*  padding: 35px 30px 45px 30px; */
   margin-bottom: 200px;
-  margin-top: 50px;
+/*  margin-top: 50px; */
   margin-left: 15px;
-  background: url(../img/paper2.jpg) no-repeat center center fixed;
+/*  background: url(../img/paper2.jpg) no-repeat center center fixed; */
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -176,7 +160,8 @@ BODY
 
 body {
 	font-family: 'Lato', sans-serif;
-  background: url(../img/poster3.jpg) no-repeat center center fixed;
+ /*background: url(../img/poster.jpg) no-repeat center center fixed;*/
+  background-color: #393939;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -184,10 +169,10 @@ body {
 }
 
 ._header {
-	background-color: #393939;
-  opacity: 0.6;
-	height: 500px;
+	background-color: #58FFFF;
+	height: 30px;
   margin-bottom: 50px;
+
 
 
 }
